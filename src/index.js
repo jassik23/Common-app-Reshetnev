@@ -77,15 +77,15 @@ function Content() {
     function handleButtonClick(newNum) {
         updNumOfPage(newNum);
     }
-        return (
-            <>
-                <Head listImg={listImg}/>
-                <Tagline/>
-                <Button val={"Хочу учиться!"} href={"#chapter_2"}/>
-                <Professions title="Обучаем на:" list={listProf} page={'chapter-1'}/>
-                <Professions title="На RUSSKY DIGITAL доступны направления:" list={listProfRD} page={'chapter_2'} />
-            </>
-        )
+    return (
+        <>
+            <Head listImg={listImg}/>
+            <Tagline/>
+            <Button val={"Хочу учиться!"} href={"#chapter_2"}/>
+            <Professions title="Обучаем на:" list={listProf} page={'chapter-1'}/>
+            <Professions title="На RUSSKY DIGITAL доступны направления:" list={listProfRD} page={'chapter_2'} />
+        </>
+    )
 }
 root.render(<Content />)
 
