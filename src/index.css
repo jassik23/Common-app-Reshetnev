@@ -8,7 +8,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .head {
@@ -70,4 +70,3 @@ span.right {
   font-size: 1.2vw;
   text-align: left;
 }
-
