@@ -77,7 +77,6 @@ function Content() {
     function handleButtonClick(newNum) {
         updNumOfPage(newNum);
     }
-    if(numOfPage == 0) {
         return (
             <>
                 <Head listImg={listImg}/>
@@ -87,13 +86,6 @@ function Content() {
                 <Professions title="На RUSSKY DIGITAL доступны направления:" list={listProfRD} page={'chapter_2'} />
             </>
         )
-    }else{
-        return(
-            <>
-
-            </>
-        )
-    }
 }
 root.render(<Content />)
 
